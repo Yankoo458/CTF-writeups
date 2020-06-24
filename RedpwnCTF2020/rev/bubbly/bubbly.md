@@ -9,6 +9,7 @@ Files provided:
 
 Let's analyze it with `Ghidra`.
 This is the `main`:
+
 ![alt text](img/bubbly-chl-1.png?raw=true "Ghidra")
 
 
@@ -17,9 +18,11 @@ In `main` function there is a `while` loop, from which we can exit by entering a
 Our goal is to execute `print_flag()`, so we want to make `pass=true`, so function `check()` must return `true`.
 
 This is the `check` function:
+
 ![alt text](img/bubbly-chl-2.png?raw=true "Ghidra")
 
 `nums` is a `unsigned int` array of 10 elements:
+
 ![alt text](img/bubbly-chl-3.png?raw=true "Ghidra")
 
 function `check()` returns `true` if `nums` is sorted in ascending order, so to get the flag we need to sort `nums` inside `main` function.
