@@ -15,7 +15,7 @@ secret-flag: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically
 
 So, let's analyze it with `Ghidra`:
 
-![alt text](https://raw.githubusercontent.com/Yankoo458/CTF-writeups/master/RedpwnCTF2020/pwn/the-secret/img/the-secret-chl-1.png?token=AMXF42SQIOS6WPEL7F4L4SK66M2VW)
+![alt text](img/the-secret-chl-1.png?raw=true "Ghidra")
 
 `FUN_0010091a` seems to be the `main`.
 
