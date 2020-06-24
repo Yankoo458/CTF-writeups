@@ -27,7 +27,7 @@ This is the `check` function:
 
 function `check()` returns `true` if `nums` is sorted in ascending order, so to get the flag we need to sort `nums` inside `main` function.
 
-We have to take a look to these three lines:
+We have to take a look at these three lines:
 ```c
 17    nums[i] = nums[i] ^ nums[i + 1];
 18    nums[i + 1] = nums[i + 1] ^ nums[i];
